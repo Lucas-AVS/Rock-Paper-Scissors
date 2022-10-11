@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(42, 83, 110);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+}
+
+section div label {
+    margin: 10px auto 40px auto;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    display: block;
+    margin: auto;
+	width: 30%;
+    height: 37px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(55, 107, 143);
+    border-radius: 4px;
+}
+
+button:hover {
+    color: rgb(27, 53, 70);
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+div#game {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+div#game p {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+div#score {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    background-color: rgba(92, 92, 143, 0.329);
+    gap: 200px;
+    max-width: 600px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: black;
+
+}
+
+div#playerScore h3, div#computerScore h3 {
+    font-size: 30px;
+}
+
+div#playerScore p, div#computerScore p {
+    text-align: center;
+    font-size: 40px;
+}
